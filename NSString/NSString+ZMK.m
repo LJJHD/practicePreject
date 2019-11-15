@@ -9,6 +9,7 @@
 #import <CommonCrypto/CommonCrypto.h>
 
 @implementation NSString (ZMK)
+//md5
 - (NSString *)MD5
 {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
