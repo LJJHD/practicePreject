@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "practiceProject"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "练习pod库"
 
   spec.description  = <<-DESC
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/LJJHD/practiceProject.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/NSString/**/*.{h,m}"
+  spec.source_files  = "Classes/NSString/**/*"
   spec.exclude_files = "Classes/Exclude"
 
   spec.requires_arc = true
