@@ -26,6 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   spec.description  = <<-DESC
+      “这是描述部分”
                    DESC
 
   spec.homepage     = "git@github.com:LJJHD/practiceProject.git"
@@ -54,8 +55,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "malagu" => "liujiajun888666@icloud.com" }
-   Or just: spec.author    = "malagu"
-   spec.authors            = { "malagu" => "liujiajun888666@icloud.com" }
+  #Or just: spec.author    = "malagu"
+  # spec.authors            = { "malagu" => "liujiajun888666@icloud.com" }
   # spec.social_media_url   = "https://twitter.com/malagu"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:LJJHD/practiceProject.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/LJJHD/practiceProject.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
