@@ -1,0 +1,16 @@
+PODS:
+  - practiceProject (0.0.3)
+
+DEPENDENCIES:
+  - practiceProject (from `../`)
+
+EXTERNAL SOURCES:
+  practiceProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  practiceProject: 82af0bbd284229495d6f0ada3f1c9c64d82f38c7
+
+PODFILE CHECKSUM: e9adb556b9c0a78efe123918a7ce374b6285962d
+
+COCOAPODS: 1.8.4
