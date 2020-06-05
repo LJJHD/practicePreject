@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Print : NSObject
-
++ (void)printLog;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -9,5 +9,7 @@
 #import "Print.h"
 
 @implementation Print
-
++ (void)printLog{
+    NSLog(@"你好");
+}
 @end
