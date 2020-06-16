@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		101C2A56CBA5A3DA6F1F79E3 /* Pods_PracticeProject_PracticeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA42556BF88CD0DD6A9D476 /* Pods_PracticeProject_PracticeProjectUITests.framework */; };
+		416E66E8248F814A007EDB55 /* VoiceAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E66E7248F814A007EDB55 /* VoiceAnimationView.m */; };
 		41894816248A2ECC00BF2C81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41894815248A2ECC00BF2C81 /* AppDelegate.m */; };
 		41894819248A2ECC00BF2C81 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41894818248A2ECC00BF2C81 /* SceneDelegate.m */; };
 		4189481C248A2ECC00BF2C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4189481B248A2ECC00BF2C81 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		04194CC2F1A74C21322C176E /* Pods-PracticeProject-PracticeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeProject-PracticeProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PracticeProject-PracticeProjectUITests/Pods-PracticeProject-PracticeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1DA42556BF88CD0DD6A9D476 /* Pods_PracticeProject_PracticeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeProject_PracticeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416E66E6248F814A007EDB55 /* VoiceAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceAnimationView.h; sourceTree = "<group>"; };
+		416E66E7248F814A007EDB55 /* VoiceAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceAnimationView.m; sourceTree = "<group>"; };
 		41894811248A2ECC00BF2C81 /* PracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41894814248A2ECC00BF2C81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41894815248A2ECC00BF2C81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,7 +109,6 @@
 				D7ECB8105CFBEAA9BB32A24C /* Pods-PracticeProjectTests.debug.xcconfig */,
 				480CAACF34BD7A3E6791A73A /* Pods-PracticeProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +148,8 @@
 				41894822248A2ED300BF2C81 /* LaunchScreen.storyboard */,
 				41894825248A2ED300BF2C81 /* Info.plist */,
 				41894826248A2ED300BF2C81 /* main.m */,
+				416E66E6248F814A007EDB55 /* VoiceAnimationView.h */,
+				416E66E7248F814A007EDB55 /* VoiceAnimationView.m */,
 			);
 			path = PracticeProject;
 			sourceTree = "<group>";
@@ -416,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416E66E8248F814A007EDB55 /* VoiceAnimationView.m in Sources */,
 				4189481C248A2ECC00BF2C81 /* ViewController.m in Sources */,
 				41894816248A2ECC00BF2C81 /* AppDelegate.m in Sources */,
 				41894827248A2ED300BF2C81 /* main.m in Sources */,

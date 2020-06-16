@@ -1,5 +1,9 @@
 PODS:
-  - practiceProject (0.0.4)
+  - practiceProject (0.0.5):
+    - practiceProject/Tools (= 0.0.5)
+    - practiceProject/Tools2 (= 0.0.5)
+  - practiceProject/Tools (0.0.5)
+  - practiceProject/Tools2 (0.0.5)
 
 DEPENDENCIES:
   - practiceProject (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  practiceProject: 09479a2349974267529ba3157f4c75c50fc226e7
+  practiceProject: d6b48f0e9c7567831a338707a6a1686996255a23
 
 PODFILE CHECKSUM: e9adb556b9c0a78efe123918a7ce374b6285962d
 
