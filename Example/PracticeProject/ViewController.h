@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
++ (void)print;
+- (void)print;
 @end
 

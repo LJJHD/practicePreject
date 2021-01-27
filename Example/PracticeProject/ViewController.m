@@ -9,9 +9,10 @@
 #import "ViewController.h"
 #import <Print.h>
 #import "VoiceAnimationView.h"
+#import "practiceC.h"
+#import <objc/runtime.h>
+#import "practiceC+testCategory.h"
 @interface ViewController ()
-@property (nonatomic, strong) VoiceAnimationView *voiceView;
-@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -20,25 +21,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-   
-    [Print printLog];
+    //运行时isa测试
+//    self.view.backgroundColor = [UIColor whiteColor];
+//    BOOL    res1    =    [(id)[NSObject    class]    isKindOfClass:[NSObject    class]];
+//    NSObject *obj =  [NSObject new];
+//    BOOL    res2    =    [obj   isMemberOfClass:[NSObject    class]];
+//    BOOL    res3    =    [[practiceC    class]    isKindOfClass:[practiceC    class]];
+//    BOOL    res4    =    [(id)[practiceC    class]    isMemberOfClass:[practiceC    class]];
+//
+//    Class cla = object_getClass([self class]);
+//    Class cla0 = object_getClass(self);
+//
+//    Class cla2 = [self class];
 }
 
-- (void)testVoiceAnimation{
-    VoiceAnimationView *view = [[VoiceAnimationView alloc]initWithFrame:CGRectMake(100, 100, 200, 100)];
-       self.voiceView = view;
-       view.itemW = 3;
-       view.itemSpace = 2;
-       [self.view addSubview:view];
-       self.timer = [NSTimer timerWithTimeInterval:0.3f target:self selector:@selector(todo) userInfo:nil repeats:YES];
-       [[NSRunLoop currentRunLoop]addTimer:self.timer forMode:NSRunLoopCommonModes];
++ (void)print{
+    Class cla = object_getClass(self);
 
 }
-
-- (void)todo{
-    NSUInteger height = arc4random_uniform(255) + 1;
-    [self.voiceView updateDecibel:height];
+- (void)print{
     
-    [self.voiceView setNeedsDisplay];
 }
+
+- (void)testProtocol:(id<protocolA>)objc{
+    [objc print1];
+}
+
 @end

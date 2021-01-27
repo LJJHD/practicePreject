@@ -89,6 +89,8 @@
     }
     CGContextStrokePath(context);
 }
-
+- (void)speak {
+    NSLog(@"Speaker's name: %@", self.name);
+}
 
 @end
